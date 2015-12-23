@@ -1,0 +1,95 @@
+body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eee;
+}
+
+.container.panel.panel-default {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.panel.panel-default.panel-entete {
+    padding: 10px;
+    background-color: #f0fbed;
+}
+
+#calendar {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navbar {
+    min-height: 20px;
+}
+.navbar-collapse {
+    padding: 15px;
+    padding-bottom: 10px;
+}
+.navbar-collapse>.button-checkbox>.btn {
+    margin: 3px;
+}
+.navbar-toggle-epure {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.navbar.navbar-form {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Personnalisation de la couleur primaire de Bootstrap pour un thème Noethys : #8cb425 */
+
+
+.fc-widget-header {
+    background-color: #8cb425;
+    color: #fff;
+}
+.fc-state-highlight,
+.fc-today.fc-state-highlight {
+    background-color: #f0fbed;
+}
+
+/* Pour faire un panel horizontal */
+.panel.panel-horizontal {
+    display: table;
+}
+.panel.panel-horizontal > .panel-heading, .panel.panel-horizontal > .panel-body, .panel.panel-horizontal > .panel-footer {
+    display:table-cell;
+    padding: 7px;
+}
+.panel.panel-horizontal > .panel-heading, .panel.panel-horizontal > .panel-footer {
+    border:0;
+    vertical-align: middle;
+}
+.panel.panel-horizontal > .panel-heading {
+    border-right: 1px solid;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+}
+.panel.panel-horizontal > .panel-body {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px;
+}
+/*
+.evt, .evt div, .evt span {
+	font-weight: bold;
+}
+.evt_f1, .evt_f1 div, .evt_f1 span { background-color: #849; border-color: #849; color: #fff; }
+.evt_f2, .evt_f2 div, .evt_f2 span { background-color: #fde; border-color: #fde; color: #000; }
+.evt_f3, .evt_f3 div, .evt_f3 span { background-color: #a06; border-color: #a06; color: #fff; }
+.evt_f4, .evt_f4 div, .evt_f4 span { background-color: #f06; border-color: #f06; color: #fff; }
+.evt_m1, .evt_m1 div, .evt_m1 span { background-color: #09c; border-color: #09c; color: #fff; }
+.evt_m2, .evt_m2 div, .evt_m2 span { background-color: #beb; border-color: #beb; color: #000; }
+.evt_m3, .evt_m3 div, .evt_m3 span { background-color: #6cf; border-color: #6cf; color: #000; }
+.evt_m4, .evt_m4 div, .evt_m4 span { background-color: #388; border-color: #388; color: #fff; }
+
+.evt_oth_month, .evt_oth_month div, .evt_oth_month span {
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+/*}*/
+
+.act-chkbtn, .ins-chkbtn {
+    margin: 2px;
+}

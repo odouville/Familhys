@@ -1,0 +1,43 @@
+/*
+Palette de couleurs utilisables pour les activités, pour les individus, etc...
+D1829C   rose - noir
+E5B93D   jaune - noir
+C43441   rouge - blanc
+67A33E   vert - noir
+0F9EBF   bleu clair - noir
+1668A7   bleu foncé - blanc
+322538   violet foncé - blanc
+*/
+
+.color1 {   /* jaune - noir */
+  color: #fff;
+  background-color: #E5B93D;
+}
+.color2 {   /* rouge - blanc */
+  color: #fff;
+  background-color: #C43441;
+}
+.color3 {   /* bleu clair - blanc */
+  color: #fff;
+  background-color: #0F9EBF;
+}
+.color4 {   /* rose - noir */
+  color: #fff;
+  background-color: #D1829C;
+}
+.color5 {   /* bleu foncé - blanc */
+  color: #fff;
+  background-color: #1668A7;
+}
+.color6 {   /* violet foncé - blanc */
+  color: #fff;
+  background-color: #322538;
+}
+.color7 {   /* vert - noir */
+  color: #fff;
+  background-color: #67A33E;
+}
+
+.bg-color {
+    background-color: #f0fbed;
+}
