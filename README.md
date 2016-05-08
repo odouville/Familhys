@@ -1,4 +1,7 @@
 # Familhys
+
+## Familhys n'est pas fonctionnel et ne peut pas être utilisé actuellement
+
 Le portail internet de Noethys pour les familles
 
 Noethys est un logiciel de gestion multi-activités pour les centres de loisirs, associations, mairies, cantines, etc...
